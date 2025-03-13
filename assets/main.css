@@ -16,17 +16,28 @@ header {
     justify-content: center;
     align-items: center;
 }
+@keyframes textGradient {
+    0% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 header h1 {
     margin: 0;
-    font-size: 80px;
-    font-family: "Roboto", sans-serif;
     font-size: 7rem;
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
     color: white;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.959), rgba(37, 37, 37, 0.603));
+    background: linear-gradient(90deg, #ffffff, #383838, #ffffff, #4e4e4e);
+    background-size: 300% 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: textGradient 4s linear infinite;
 }
+
 header p{
     font-weight: bold;
     color: white;
@@ -47,14 +58,14 @@ header p{
 .container h2{
     color: white;
     font-size: 1.7rem;
-    background: linear-gradient(135deg, #cfcfcff5, #7272725e);
+    background: linear-gradient(135deg, #ffffff, #7272725e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .container p{
     font-size: 1.1rem;
     color: #8b8b8baf;
-    background: linear-gradient(180deg, #bbbbbbf5, #a7a7a75e);
+    background: linear-gradient(180deg, #fffffff5, #a7a7a75e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
