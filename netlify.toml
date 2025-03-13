@@ -17,3 +17,8 @@
   from = "https://policies.opencodenest.org/privacy-policy"
   to = "/policy/privacy-policy.html"
   status = 200
+
+[[redirects]]
+  from = "https://policies.opencodenest.org/*"
+  to = "https://www.opencodenest.org/"
+  status = 301 
