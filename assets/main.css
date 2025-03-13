@@ -53,7 +53,7 @@ header p{
 }
 .container p{
     font-size: 1.1rem;
-    color: rgba(139, 139, 139, 0.685);
+    color: #8b8b8baf;
     background: linear-gradient(180deg, #bbbbbbf5, #a7a7a75e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -84,8 +84,13 @@ footer {
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
-    opacity: 50%;
 }
+
+footer a{
+    color: #9b9b9b;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
 
     header h1{

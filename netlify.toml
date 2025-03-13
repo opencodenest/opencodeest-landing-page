@@ -1,0 +1,19 @@
+[[redirects]]
+  from = "https://www.opencodenest.org/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "https://policies.opencodenest.org/terms"
+  to = "/policy/opencodenest-terms.html"
+  status = 200
+
+[[redirects]]
+  from = "https://policies.opencodenest.org/code-of-conduct"
+  to = "/policy/code-of-conduct.html"
+  status = 200
+
+[[redirects]]
+  from = "https://policies.opencodenest.org/privacy-policy"
+  to = "/policy/privacy-policy.html"
+  status = 200
