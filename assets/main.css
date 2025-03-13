@@ -91,6 +91,17 @@ footer a{
     text-decoration: none;
 }
 
+.bg-sphere{
+    height: 550px;
+    width: 550px;
+    filter: blur(250px);
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+}
+
 @media screen and (max-width: 768px) {
 
     header h1{
@@ -117,5 +128,11 @@ footer a{
     .btn{
     font-size: 0.9rem;
         
+    }
+
+    .bg-sphere{
+        height: 250px;
+        width: 250px;
+        filter: blur(100px);
     }
 }
